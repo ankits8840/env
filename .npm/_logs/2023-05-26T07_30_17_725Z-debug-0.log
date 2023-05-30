@@ -1,0 +1,707 @@
+0 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'i' ]
+1 info using npm@8.5.1
+2 info using node@v12.22.9
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/usr/share/nodejs/npm/npmrc Completed in 18ms
+6 timing config:load:builtin Completed in 18ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:/home/ubuntu/Simple-CRUD-API/.npmrc Completed in 1ms
+10 timing config:load:project Completed in 4ms
+11 timing config:load:file:/home/ubuntu/.npmrc Completed in 0ms
+12 timing config:load:user Completed in 0ms
+13 timing config:load:file:/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:validate Completed in 1ms
+16 timing config:load:credentials Completed in 2ms
+17 timing config:load:setEnvs Completed in 1ms
+18 timing config:load Completed in 31ms
+19 timing npm:load:configload Completed in 31ms
+20 timing npm:load:setTitle Completed in 1ms
+21 timing config:load:flatten Completed in 5ms
+22 timing npm:load:display Completed in 8ms
+23 verbose logfile /home/ubuntu/.npm/_logs/2023-05-26T07_30_17_725Z-debug-0.log
+24 timing npm:load:logFile Completed in 8ms
+25 timing npm:load:timers Completed in 0ms
+26 timing npm:load:configScope Completed in 0ms
+27 timing npm:load Completed in 50ms
+28 timing arborist:ctor Completed in 3ms
+29 timing idealTree:init Completed in 552ms
+30 warn old lockfile
+30 warn old lockfile The package-lock.json file was created with an old version of npm,
+30 warn old lockfile so supplemental metadata must be fetched from the registry.
+30 warn old lockfile
+30 warn old lockfile This is a one-time fix-up, please be patient...
+30 warn old lockfile
+31 silly inflate node_modules/abbrev
+32 http fetch GET 200 https://registry.npmjs.org/abbrev 116ms (cache miss)
+33 silly inflate node_modules/accepts
+34 http fetch GET 200 https://registry.npmjs.org/accepts 29ms (cache miss)
+35 silly inflate node_modules/ansi-align
+36 http fetch GET 200 https://registry.npmjs.org/ansi-align 23ms (cache miss)
+37 silly inflate node_modules/ansi-regex
+38 http fetch GET 200 https://registry.npmjs.org/ansi-regex 25ms (cache miss)
+39 silly inflate node_modules/ansi-styles
+40 http fetch GET 200 https://registry.npmjs.org/ansi-styles 27ms (cache miss)
+41 silly inflate node_modules/anymatch
+42 http fetch GET 200 https://registry.npmjs.org/anymatch 30ms (cache miss)
+43 silly inflate node_modules/anymatch/node_modules/normalize-path
+44 http fetch GET 200 https://registry.npmjs.org/normalize-path 23ms (cache miss)
+45 silly inflate node_modules/arr-diff
+46 http fetch GET 200 https://registry.npmjs.org/arr-diff 36ms (cache miss)
+47 silly inflate node_modules/arr-flatten
+48 http fetch GET 200 https://registry.npmjs.org/arr-flatten 21ms (cache miss)
+49 silly inflate node_modules/arr-union
+50 http fetch GET 200 https://registry.npmjs.org/arr-union 37ms (cache miss)
+51 silly inflate node_modules/array-flatten
+52 http fetch GET 200 https://registry.npmjs.org/array-flatten 26ms (cache miss)
+53 silly inflate node_modules/array-unique
+54 http fetch GET 200 https://registry.npmjs.org/array-unique 44ms (cache miss)
+55 silly inflate node_modules/assign-symbols
+56 http fetch GET 200 https://registry.npmjs.org/assign-symbols 32ms (cache miss)
+57 silly inflate node_modules/async
+58 http fetch GET 200 https://registry.npmjs.org/async 22ms (cache miss)
+59 silly inflate node_modules/async-each
+60 http fetch GET 200 https://registry.npmjs.org/async-each 20ms (cache miss)
+61 silly inflate node_modules/atob
+62 http fetch GET 200 https://registry.npmjs.org/atob 26ms (cache miss)
+63 silly inflate node_modules/balanced-match
+64 http fetch GET 200 https://registry.npmjs.org/balanced-match 26ms (cache miss)
+65 silly inflate node_modules/base
+66 http fetch GET 200 https://registry.npmjs.org/base 36ms (cache miss)
+67 silly inflate node_modules/base/node_modules/define-property
+68 http fetch GET 200 https://registry.npmjs.org/define-property 26ms (cache miss)
+69 silly inflate node_modules/base/node_modules/is-accessor-descriptor
+70 http fetch GET 200 https://registry.npmjs.org/is-accessor-descriptor 27ms (cache miss)
+71 silly inflate node_modules/base/node_modules/is-data-descriptor
+72 http fetch GET 200 https://registry.npmjs.org/is-data-descriptor 33ms (cache miss)
+73 silly inflate node_modules/base/node_modules/is-descriptor
+74 http fetch GET 200 https://registry.npmjs.org/is-descriptor 23ms (cache miss)
+75 silly inflate node_modules/binary-extensions
+76 http fetch GET 200 https://registry.npmjs.org/binary-extensions 37ms (cache miss)
+77 silly inflate node_modules/bluebird
+78 http fetch GET 200 https://registry.npmjs.org/bluebird 40ms (cache miss)
+79 silly inflate node_modules/body-parser
+80 http fetch GET 200 https://registry.npmjs.org/body-parser 31ms (cache miss)
+81 silly inflate node_modules/boxen
+82 http fetch GET 200 https://registry.npmjs.org/boxen 25ms (cache miss)
+83 silly inflate node_modules/brace-expansion
+84 http fetch GET 200 https://registry.npmjs.org/brace-expansion 27ms (cache miss)
+85 silly inflate node_modules/braces
+86 http fetch GET 200 https://registry.npmjs.org/braces 30ms (cache miss)
+87 silly inflate node_modules/braces/node_modules/extend-shallow
+88 http fetch GET 200 https://registry.npmjs.org/extend-shallow 31ms (cache miss)
+89 silly inflate node_modules/bson
+90 http fetch GET 200 https://registry.npmjs.org/bson 55ms (cache miss)
+91 silly inflate node_modules/bytes
+92 http fetch GET 200 https://registry.npmjs.org/bytes 33ms (cache miss)
+93 silly inflate node_modules/cache-base
+94 http fetch GET 200 https://registry.npmjs.org/cache-base 40ms (cache miss)
+95 silly inflate node_modules/camelcase
+96 http fetch GET 200 https://registry.npmjs.org/camelcase 34ms (cache miss)
+97 silly inflate node_modules/capture-stack-trace
+98 http fetch GET 200 https://registry.npmjs.org/capture-stack-trace 42ms (cache miss)
+99 silly inflate node_modules/chalk
+100 http fetch GET 200 https://registry.npmjs.org/chalk 24ms (cache miss)
+101 silly inflate node_modules/chokidar
+102 http fetch GET 200 https://registry.npmjs.org/chokidar 28ms (cache miss)
+103 silly inflate node_modules/ci-info
+104 http fetch GET 200 https://registry.npmjs.org/ci-info 45ms (cache miss)
+105 silly inflate node_modules/class-utils
+106 http fetch GET 200 https://registry.npmjs.org/class-utils 36ms (cache miss)
+107 silly inflate node_modules/class-utils/node_modules/define-property
+108 silly inflate node_modules/cli-boxes
+109 http fetch GET 200 https://registry.npmjs.org/cli-boxes 31ms (cache miss)
+110 silly inflate node_modules/collection-visit
+111 http fetch GET 200 https://registry.npmjs.org/collection-visit 35ms (cache miss)
+112 silly inflate node_modules/color-convert
+113 http fetch GET 200 https://registry.npmjs.org/color-convert 27ms (cache miss)
+114 silly inflate node_modules/color-name
+115 http fetch GET 200 https://registry.npmjs.org/color-name 33ms (cache miss)
+116 silly inflate node_modules/component-emitter
+117 http fetch GET 200 https://registry.npmjs.org/component-emitter 23ms (cache miss)
+118 silly inflate node_modules/concat-map
+119 http fetch GET 200 https://registry.npmjs.org/concat-map 34ms (cache miss)
+120 silly inflate node_modules/configstore
+121 http fetch GET 200 https://registry.npmjs.org/configstore 25ms (cache miss)
+122 silly inflate node_modules/content-disposition
+123 http fetch GET 200 https://registry.npmjs.org/content-disposition 21ms (cache miss)
+124 silly inflate node_modules/content-type
+125 http fetch GET 200 https://registry.npmjs.org/content-type 25ms (cache miss)
+126 silly inflate node_modules/cookie
+127 http fetch GET 200 https://registry.npmjs.org/cookie 22ms (cache miss)
+128 silly inflate node_modules/cookie-signature
+129 http fetch GET 200 https://registry.npmjs.org/cookie-signature 37ms (cache miss)
+130 silly inflate node_modules/copy-descriptor
+131 http fetch GET 200 https://registry.npmjs.org/copy-descriptor 25ms (cache miss)
+132 silly inflate node_modules/core-util-is
+133 http fetch GET 200 https://registry.npmjs.org/core-util-is 32ms (cache miss)
+134 silly inflate node_modules/create-error-class
+135 http fetch GET 200 https://registry.npmjs.org/create-error-class 30ms (cache miss)
+136 silly inflate node_modules/cross-spawn
+137 http fetch GET 200 https://registry.npmjs.org/cross-spawn 26ms (cache miss)
+138 silly inflate node_modules/crypto-random-string
+139 http fetch GET 200 https://registry.npmjs.org/crypto-random-string 25ms (cache miss)
+140 silly inflate node_modules/debug
+141 http fetch GET 200 https://registry.npmjs.org/debug 31ms (cache miss)
+142 silly inflate node_modules/decode-uri-component
+143 http fetch GET 200 https://registry.npmjs.org/decode-uri-component 24ms (cache miss)
+144 silly inflate node_modules/deep-extend
+145 http fetch GET 200 https://registry.npmjs.org/deep-extend 46ms (cache miss)
+146 silly inflate node_modules/define-property
+147 silly inflate node_modules/define-property/node_modules/is-accessor-descriptor
+148 silly inflate node_modules/define-property/node_modules/is-data-descriptor
+149 silly inflate node_modules/define-property/node_modules/is-descriptor
+150 silly inflate node_modules/depd
+151 http fetch GET 200 https://registry.npmjs.org/depd 38ms (cache miss)
+152 silly inflate node_modules/destroy
+153 http fetch GET 200 https://registry.npmjs.org/destroy 29ms (cache miss)
+154 silly inflate node_modules/dot-prop
+155 http fetch GET 200 https://registry.npmjs.org/dot-prop 308ms (cache miss)
+156 silly inflate node_modules/duplexer3
+157 http fetch GET 200 https://registry.npmjs.org/duplexer3 30ms (cache miss)
+158 silly inflate node_modules/ee-first
+159 http fetch GET 200 https://registry.npmjs.org/ee-first 25ms (cache miss)
+160 silly inflate node_modules/encodeurl
+161 http fetch GET 200 https://registry.npmjs.org/encodeurl 36ms (cache miss)
+162 silly inflate node_modules/escape-html
+163 http fetch GET 200 https://registry.npmjs.org/escape-html 27ms (cache miss)
+164 silly inflate node_modules/escape-string-regexp
+165 http fetch GET 200 https://registry.npmjs.org/escape-string-regexp 21ms (cache miss)
+166 silly inflate node_modules/etag
+167 http fetch GET 200 https://registry.npmjs.org/etag 26ms (cache miss)
+168 silly inflate node_modules/execa
+169 http fetch GET 200 https://registry.npmjs.org/execa 25ms (cache miss)
+170 silly inflate node_modules/expand-brackets
+171 http fetch GET 200 https://registry.npmjs.org/expand-brackets 22ms (cache miss)
+172 silly inflate node_modules/expand-brackets/node_modules/define-property
+173 silly inflate node_modules/expand-brackets/node_modules/extend-shallow
+174 silly inflate node_modules/express
+175 http fetch GET 200 https://registry.npmjs.org/express 43ms (cache miss)
+176 silly inflate node_modules/extend-shallow
+177 silly inflate node_modules/extend-shallow/node_modules/is-extendable
+178 http fetch GET 200 https://registry.npmjs.org/is-extendable 22ms (cache miss)
+179 silly inflate node_modules/extglob
+180 http fetch GET 200 https://registry.npmjs.org/extglob 33ms (cache miss)
+181 silly inflate node_modules/extglob/node_modules/define-property
+182 silly inflate node_modules/extglob/node_modules/extend-shallow
+183 silly inflate node_modules/extglob/node_modules/is-accessor-descriptor
+184 silly inflate node_modules/extglob/node_modules/is-data-descriptor
+185 silly inflate node_modules/extglob/node_modules/is-descriptor
+186 silly inflate node_modules/fill-range
+187 http fetch GET 200 https://registry.npmjs.org/fill-range 37ms (cache miss)
+188 silly inflate node_modules/fill-range/node_modules/extend-shallow
+189 silly inflate node_modules/finalhandler
+190 http fetch GET 200 https://registry.npmjs.org/finalhandler 23ms (cache miss)
+191 silly inflate node_modules/for-in
+192 http fetch GET 200 https://registry.npmjs.org/for-in 22ms (cache miss)
+193 silly inflate node_modules/forwarded
+194 http fetch GET 200 https://registry.npmjs.org/forwarded 24ms (cache miss)
+195 silly inflate node_modules/fragment-cache
+196 http fetch GET 200 https://registry.npmjs.org/fragment-cache 42ms (cache miss)
+197 silly inflate node_modules/fresh
+198 http fetch GET 200 https://registry.npmjs.org/fresh 25ms (cache miss)
+199 silly inflate node_modules/fsevents
+200 http fetch GET 200 https://registry.npmjs.org/fsevents 23ms (cache miss)
+201 silly inflate node_modules/fsevents/node_modules/abbrev
+202 silly inflate node_modules/fsevents/node_modules/ansi-regex
+203 silly inflate node_modules/fsevents/node_modules/aproba
+204 http fetch GET 200 https://registry.npmjs.org/aproba 40ms (cache miss)
+205 silly inflate node_modules/fsevents/node_modules/are-we-there-yet
+206 http fetch GET 200 https://registry.npmjs.org/are-we-there-yet 33ms (cache miss)
+207 silly inflate node_modules/fsevents/node_modules/balanced-match
+208 silly inflate node_modules/fsevents/node_modules/brace-expansion
+209 silly inflate node_modules/fsevents/node_modules/chownr
+210 http fetch GET 200 https://registry.npmjs.org/chownr 22ms (cache miss)
+211 silly inflate node_modules/fsevents/node_modules/code-point-at
+212 http fetch GET 200 https://registry.npmjs.org/code-point-at 26ms (cache miss)
+213 silly inflate node_modules/fsevents/node_modules/concat-map
+214 silly inflate node_modules/fsevents/node_modules/console-control-strings
+215 http fetch GET 200 https://registry.npmjs.org/console-control-strings 24ms (cache miss)
+216 silly inflate node_modules/fsevents/node_modules/core-util-is
+217 silly inflate node_modules/fsevents/node_modules/debug
+218 silly inflate node_modules/fsevents/node_modules/deep-extend
+219 silly inflate node_modules/fsevents/node_modules/delegates
+220 http fetch GET 200 https://registry.npmjs.org/delegates 39ms (cache miss)
+221 silly inflate node_modules/fsevents/node_modules/detect-libc
+222 http fetch GET 200 https://registry.npmjs.org/detect-libc 21ms (cache miss)
+223 silly inflate node_modules/fsevents/node_modules/fs-minipass
+224 http fetch GET 200 https://registry.npmjs.org/fs-minipass 26ms (cache miss)
+225 silly inflate node_modules/fsevents/node_modules/fs.realpath
+226 http fetch GET 200 https://registry.npmjs.org/fs.realpath 31ms (cache miss)
+227 silly inflate node_modules/fsevents/node_modules/gauge
+228 http fetch GET 200 https://registry.npmjs.org/gauge 31ms (cache miss)
+229 silly inflate node_modules/fsevents/node_modules/glob
+230 http fetch GET 200 https://registry.npmjs.org/glob 49ms (cache miss)
+231 silly inflate node_modules/fsevents/node_modules/has-unicode
+232 http fetch GET 200 https://registry.npmjs.org/has-unicode 34ms (cache miss)
+233 silly inflate node_modules/fsevents/node_modules/iconv-lite
+234 http fetch GET 200 https://registry.npmjs.org/iconv-lite 48ms (cache miss)
+235 silly inflate node_modules/fsevents/node_modules/ignore-walk
+236 http fetch GET 200 https://registry.npmjs.org/ignore-walk 37ms (cache miss)
+237 silly inflate node_modules/fsevents/node_modules/inflight
+238 http fetch GET 200 https://registry.npmjs.org/inflight 25ms (cache miss)
+239 silly inflate node_modules/fsevents/node_modules/inherits
+240 http fetch GET 200 https://registry.npmjs.org/inherits 33ms (cache miss)
+241 silly inflate node_modules/fsevents/node_modules/ini
+242 http fetch GET 200 https://registry.npmjs.org/ini 32ms (cache miss)
+243 silly inflate node_modules/fsevents/node_modules/is-fullwidth-code-point
+244 http fetch GET 200 https://registry.npmjs.org/is-fullwidth-code-point 23ms (cache miss)
+245 silly inflate node_modules/fsevents/node_modules/isarray
+246 http fetch GET 200 https://registry.npmjs.org/isarray 26ms (cache miss)
+247 silly inflate node_modules/fsevents/node_modules/minimatch
+248 http fetch GET 200 https://registry.npmjs.org/minimatch 29ms (cache miss)
+249 silly inflate node_modules/fsevents/node_modules/minimist
+250 http fetch GET 200 https://registry.npmjs.org/minimist 34ms (cache miss)
+251 silly inflate node_modules/fsevents/node_modules/minipass
+252 http fetch GET 200 https://registry.npmjs.org/minipass 43ms (cache miss)
+253 silly inflate node_modules/fsevents/node_modules/minizlib
+254 http fetch GET 200 https://registry.npmjs.org/minizlib 25ms (cache miss)
+255 silly inflate node_modules/fsevents/node_modules/mkdirp
+256 http fetch GET 200 https://registry.npmjs.org/mkdirp 60ms (cache miss)
+257 silly inflate node_modules/fsevents/node_modules/ms
+258 http fetch GET 200 https://registry.npmjs.org/ms 29ms (cache miss)
+259 silly inflate node_modules/fsevents/node_modules/needle
+260 http fetch GET 200 https://registry.npmjs.org/needle 33ms (cache miss)
+261 silly inflate node_modules/fsevents/node_modules/node-pre-gyp
+262 http fetch GET 200 https://registry.npmjs.org/node-pre-gyp 30ms (cache miss)
+263 silly inflate node_modules/fsevents/node_modules/nopt
+264 http fetch GET 200 https://registry.npmjs.org/nopt 32ms (cache miss)
+265 silly inflate node_modules/fsevents/node_modules/npm-bundled
+266 http fetch GET 200 https://registry.npmjs.org/npm-bundled 24ms (cache miss)
+267 silly inflate node_modules/fsevents/node_modules/npm-packlist
+268 http fetch GET 200 https://registry.npmjs.org/npm-packlist 25ms (cache miss)
+269 silly inflate node_modules/fsevents/node_modules/npmlog
+270 http fetch GET 200 https://registry.npmjs.org/npmlog 22ms (cache miss)
+271 silly inflate node_modules/fsevents/node_modules/number-is-nan
+272 http fetch GET 200 https://registry.npmjs.org/number-is-nan 38ms (cache miss)
+273 silly inflate node_modules/fsevents/node_modules/object-assign
+274 http fetch GET 200 https://registry.npmjs.org/object-assign 36ms (cache miss)
+275 silly inflate node_modules/fsevents/node_modules/once
+276 http fetch GET 200 https://registry.npmjs.org/once 23ms (cache miss)
+277 silly inflate node_modules/fsevents/node_modules/os-homedir
+278 http fetch GET 200 https://registry.npmjs.org/os-homedir 33ms (cache miss)
+279 silly inflate node_modules/fsevents/node_modules/os-tmpdir
+280 http fetch GET 200 https://registry.npmjs.org/os-tmpdir 33ms (cache miss)
+281 silly inflate node_modules/fsevents/node_modules/osenv
+282 http fetch GET 200 https://registry.npmjs.org/osenv 183ms (cache miss)
+283 silly inflate node_modules/fsevents/node_modules/path-is-absolute
+284 http fetch GET 200 https://registry.npmjs.org/path-is-absolute 26ms (cache miss)
+285 silly inflate node_modules/fsevents/node_modules/process-nextick-args
+286 http fetch GET 200 https://registry.npmjs.org/process-nextick-args 38ms (cache miss)
+287 silly inflate node_modules/fsevents/node_modules/rc
+288 http fetch GET 200 https://registry.npmjs.org/rc 47ms (cache miss)
+289 silly inflate node_modules/fsevents/node_modules/rc/node_modules/minimist
+290 silly inflate node_modules/fsevents/node_modules/readable-stream
+291 http fetch GET 200 https://registry.npmjs.org/readable-stream 30ms (cache miss)
+292 silly inflate node_modules/fsevents/node_modules/rimraf
+293 http fetch GET 200 https://registry.npmjs.org/rimraf 41ms (cache miss)
+294 silly inflate node_modules/fsevents/node_modules/safe-buffer
+295 http fetch GET 200 https://registry.npmjs.org/safe-buffer 28ms (cache miss)
+296 silly inflate node_modules/fsevents/node_modules/safer-buffer
+297 http fetch GET 200 https://registry.npmjs.org/safer-buffer 37ms (cache miss)
+298 silly inflate node_modules/fsevents/node_modules/sax
+299 http fetch GET 200 https://registry.npmjs.org/sax 34ms (cache miss)
+300 silly inflate node_modules/fsevents/node_modules/semver
+301 http fetch GET 200 https://registry.npmjs.org/semver 33ms (cache miss)
+302 silly inflate node_modules/fsevents/node_modules/set-blocking
+303 http fetch GET 200 https://registry.npmjs.org/set-blocking 62ms (cache miss)
+304 silly inflate node_modules/fsevents/node_modules/signal-exit
+305 http fetch GET 200 https://registry.npmjs.org/signal-exit 25ms (cache miss)
+306 silly inflate node_modules/fsevents/node_modules/string-width
+307 http fetch GET 200 https://registry.npmjs.org/string-width 46ms (cache miss)
+308 silly inflate node_modules/fsevents/node_modules/string_decoder
+309 http fetch GET 200 https://registry.npmjs.org/string_decoder 21ms (cache miss)
+310 silly inflate node_modules/fsevents/node_modules/strip-ansi
+311 http fetch GET 200 https://registry.npmjs.org/strip-ansi 26ms (cache miss)
+312 silly inflate node_modules/fsevents/node_modules/strip-json-comments
+313 http fetch GET 200 https://registry.npmjs.org/strip-json-comments 27ms (cache miss)
+314 silly inflate node_modules/fsevents/node_modules/tar
+315 http fetch GET 200 https://registry.npmjs.org/tar 30ms (cache miss)
+316 silly inflate node_modules/fsevents/node_modules/util-deprecate
+317 http fetch GET 200 https://registry.npmjs.org/util-deprecate 32ms (cache miss)
+318 silly inflate node_modules/fsevents/node_modules/wide-align
+319 http fetch GET 200 https://registry.npmjs.org/wide-align 29ms (cache miss)
+320 silly inflate node_modules/fsevents/node_modules/wrappy
+321 http fetch GET 200 https://registry.npmjs.org/wrappy 61ms (cache miss)
+322 silly inflate node_modules/fsevents/node_modules/yallist
+323 http fetch GET 200 https://registry.npmjs.org/yallist 24ms (cache miss)
+324 silly inflate node_modules/get-stream
+325 http fetch GET 200 https://registry.npmjs.org/get-stream 31ms (cache miss)
+326 silly inflate node_modules/get-value
+327 http fetch GET 200 https://registry.npmjs.org/get-value 24ms (cache miss)
+328 silly inflate node_modules/glob-parent
+329 http fetch GET 200 https://registry.npmjs.org/glob-parent 28ms (cache miss)
+330 silly inflate node_modules/glob-parent/node_modules/is-glob
+331 http fetch GET 200 https://registry.npmjs.org/is-glob 25ms (cache miss)
+332 silly inflate node_modules/global-dirs
+333 http fetch GET 200 https://registry.npmjs.org/global-dirs 23ms (cache miss)
+334 silly inflate node_modules/got
+335 http fetch GET 200 https://registry.npmjs.org/got 39ms (cache miss)
+336 silly inflate node_modules/graceful-fs
+337 http fetch GET 200 https://registry.npmjs.org/graceful-fs 28ms (cache miss)
+338 silly inflate node_modules/has-flag
+339 http fetch GET 200 https://registry.npmjs.org/has-flag 29ms (cache miss)
+340 silly inflate node_modules/has-value
+341 http fetch GET 200 https://registry.npmjs.org/has-value 29ms (cache miss)
+342 silly inflate node_modules/has-values
+343 http fetch GET 200 https://registry.npmjs.org/has-values 32ms (cache miss)
+344 silly inflate node_modules/has-values/node_modules/kind-of
+345 http fetch GET 200 https://registry.npmjs.org/kind-of 26ms (cache miss)
+346 silly inflate node_modules/http-errors
+347 http fetch GET 200 https://registry.npmjs.org/http-errors 22ms (cache miss)
+348 silly inflate node_modules/iconv-lite
+349 silly inflate node_modules/ignore-by-default
+350 http fetch GET 200 https://registry.npmjs.org/ignore-by-default 48ms (cache miss)
+351 silly inflate node_modules/import-lazy
+352 http fetch GET 200 https://registry.npmjs.org/import-lazy 26ms (cache miss)
+353 silly inflate node_modules/imurmurhash
+354 http fetch GET 200 https://registry.npmjs.org/imurmurhash 22ms (cache miss)
+355 silly inflate node_modules/inherits
+356 silly inflate node_modules/ini
+357 silly inflate node_modules/ipaddr.js
+358 http fetch GET 200 https://registry.npmjs.org/ipaddr.js 36ms (cache miss)
+359 silly inflate node_modules/is-accessor-descriptor
+360 silly inflate node_modules/is-accessor-descriptor/node_modules/kind-of
+361 silly inflate node_modules/is-binary-path
+362 http fetch GET 200 https://registry.npmjs.org/is-binary-path 23ms (cache miss)
+363 silly inflate node_modules/is-buffer
+364 http fetch GET 200 https://registry.npmjs.org/is-buffer 22ms (cache miss)
+365 silly inflate node_modules/is-ci
+366 http fetch GET 200 https://registry.npmjs.org/is-ci 21ms (cache miss)
+367 silly inflate node_modules/is-data-descriptor
+368 silly inflate node_modules/is-data-descriptor/node_modules/kind-of
+369 silly inflate node_modules/is-descriptor
+370 silly inflate node_modules/is-descriptor/node_modules/kind-of
+371 silly inflate node_modules/is-extendable
+372 silly inflate node_modules/is-extglob
+373 http fetch GET 200 https://registry.npmjs.org/is-extglob 23ms (cache miss)
+374 silly inflate node_modules/is-fullwidth-code-point
+375 silly inflate node_modules/is-glob
+376 silly inflate node_modules/is-installed-globally
+377 http fetch GET 200 https://registry.npmjs.org/is-installed-globally 23ms (cache miss)
+378 silly inflate node_modules/is-npm
+379 http fetch GET 200 https://registry.npmjs.org/is-npm 22ms (cache miss)
+380 silly inflate node_modules/is-number
+381 http fetch GET 200 https://registry.npmjs.org/is-number 26ms (cache miss)
+382 silly inflate node_modules/is-number/node_modules/kind-of
+383 silly inflate node_modules/is-obj
+384 http fetch GET 200 https://registry.npmjs.org/is-obj 36ms (cache miss)
+385 silly inflate node_modules/is-path-inside
+386 http fetch GET 200 https://registry.npmjs.org/is-path-inside 23ms (cache miss)
+387 silly inflate node_modules/is-plain-object
+388 http fetch GET 200 https://registry.npmjs.org/is-plain-object 32ms (cache miss)
+389 silly inflate node_modules/is-redirect
+390 http fetch GET 200 https://registry.npmjs.org/is-redirect 57ms (cache miss)
+391 silly inflate node_modules/is-retry-allowed
+392 http fetch GET 200 https://registry.npmjs.org/is-retry-allowed 25ms (cache miss)
+393 silly inflate node_modules/is-stream
+394 http fetch GET 200 https://registry.npmjs.org/is-stream 24ms (cache miss)
+395 silly inflate node_modules/is-windows
+396 http fetch GET 200 https://registry.npmjs.org/is-windows 23ms (cache miss)
+397 silly inflate node_modules/isarray
+398 silly inflate node_modules/isexe
+399 http fetch GET 200 https://registry.npmjs.org/isexe 39ms (cache miss)
+400 silly inflate node_modules/isobject
+401 http fetch GET 200 https://registry.npmjs.org/isobject 34ms (cache miss)
+402 silly inflate node_modules/kareem
+403 http fetch GET 200 https://registry.npmjs.org/kareem 46ms (cache miss)
+404 silly inflate node_modules/kind-of
+405 silly inflate node_modules/latest-version
+406 http fetch GET 200 https://registry.npmjs.org/latest-version 23ms (cache miss)
+407 silly inflate node_modules/lodash
+408 http fetch GET 200 https://registry.npmjs.org/lodash 40ms (cache miss)
+409 silly inflate node_modules/lowercase-keys
+410 http fetch GET 200 https://registry.npmjs.org/lowercase-keys 41ms (cache miss)
+411 silly inflate node_modules/lru-cache
+412 http fetch GET 200 https://registry.npmjs.org/lru-cache 35ms (cache miss)
+413 silly inflate node_modules/make-dir
+414 http fetch GET 200 https://registry.npmjs.org/make-dir 37ms (cache miss)
+415 silly inflate node_modules/map-cache
+416 http fetch GET 200 https://registry.npmjs.org/map-cache 37ms (cache miss)
+417 silly inflate node_modules/map-visit
+418 http fetch GET 200 https://registry.npmjs.org/map-visit 22ms (cache miss)
+419 silly inflate node_modules/media-typer
+420 http fetch GET 200 https://registry.npmjs.org/media-typer 30ms (cache miss)
+421 silly inflate node_modules/memory-pager
+422 http fetch GET 200 https://registry.npmjs.org/memory-pager 30ms (cache miss)
+423 silly inflate node_modules/merge-descriptors
+424 http fetch GET 200 https://registry.npmjs.org/merge-descriptors 21ms (cache miss)
+425 silly inflate node_modules/methods
+426 http fetch GET 200 https://registry.npmjs.org/methods 25ms (cache miss)
+427 silly inflate node_modules/micromatch
+428 http fetch GET 200 https://registry.npmjs.org/micromatch 22ms (cache miss)
+429 silly inflate node_modules/mime
+430 http fetch GET 200 https://registry.npmjs.org/mime 25ms (cache miss)
+431 silly inflate node_modules/mime-db
+432 http fetch GET 200 https://registry.npmjs.org/mime-db 42ms (cache miss)
+433 silly inflate node_modules/mime-types
+434 http fetch GET 200 https://registry.npmjs.org/mime-types 21ms (cache miss)
+435 silly inflate node_modules/minimatch
+436 silly inflate node_modules/minimist
+437 silly inflate node_modules/mixin-deep
+438 http fetch GET 200 https://registry.npmjs.org/mixin-deep 34ms (cache miss)
+439 silly inflate node_modules/mixin-deep/node_modules/is-extendable
+440 silly inflate node_modules/mongodb
+441 http fetch GET 200 https://registry.npmjs.org/mongodb 35ms (cache miss)
+442 silly inflate node_modules/mongodb-core
+443 http fetch GET 200 https://registry.npmjs.org/mongodb-core 33ms (cache miss)
+444 silly inflate node_modules/mongoose
+445 http fetch GET 200 https://registry.npmjs.org/mongoose 64ms (cache miss)
+446 silly inflate node_modules/mongoose/node_modules/ms
+447 silly inflate node_modules/mongoose-legacy-pluralize
+448 http fetch GET 200 https://registry.npmjs.org/mongoose-legacy-pluralize 46ms (cache miss)
+449 silly inflate node_modules/mpath
+450 http fetch GET 200 https://registry.npmjs.org/mpath 23ms (cache miss)
+451 silly inflate node_modules/mquery
+452 http fetch GET 200 https://registry.npmjs.org/mquery 35ms (cache miss)
+453 silly inflate node_modules/mquery/node_modules/debug
+454 silly inflate node_modules/ms
+455 silly inflate node_modules/nan
+456 http fetch GET 200 https://registry.npmjs.org/nan 25ms (cache miss)
+457 silly inflate node_modules/nanomatch
+458 http fetch GET 200 https://registry.npmjs.org/nanomatch 26ms (cache miss)
+459 silly inflate node_modules/negotiator
+460 http fetch GET 200 https://registry.npmjs.org/negotiator 43ms (cache miss)
+461 silly inflate node_modules/nodemon
+462 http fetch GET 200 https://registry.npmjs.org/nodemon 39ms (cache miss)
+463 silly inflate node_modules/nodemon/node_modules/debug
+464 silly inflate node_modules/nodemon/node_modules/ms
+465 silly inflate node_modules/nopt
+466 silly inflate node_modules/normalize-path
+467 silly inflate node_modules/npm-run-path
+468 http fetch GET 200 https://registry.npmjs.org/npm-run-path 27ms (cache miss)
+469 silly inflate node_modules/object-copy
+470 http fetch GET 200 https://registry.npmjs.org/object-copy 23ms (cache miss)
+471 silly inflate node_modules/object-copy/node_modules/define-property
+472 silly inflate node_modules/object-copy/node_modules/kind-of
+473 silly inflate node_modules/object-visit
+474 http fetch GET 200 https://registry.npmjs.org/object-visit 326ms (cache miss)
+475 silly inflate node_modules/object.pick
+476 http fetch GET 200 https://registry.npmjs.org/object.pick 22ms (cache miss)
+477 silly inflate node_modules/on-finished
+478 http fetch GET 200 https://registry.npmjs.org/on-finished 22ms (cache miss)
+479 silly inflate node_modules/p-finally
+480 http fetch GET 200 https://registry.npmjs.org/p-finally 20ms (cache miss)
+481 silly inflate node_modules/package-json
+482 http fetch GET 200 https://registry.npmjs.org/package-json 43ms (cache miss)
+483 silly inflate node_modules/parseurl
+484 http fetch GET 200 https://registry.npmjs.org/parseurl 37ms (cache miss)
+485 silly inflate node_modules/pascalcase
+486 http fetch GET 200 https://registry.npmjs.org/pascalcase 28ms (cache miss)
+487 silly inflate node_modules/path-dirname
+488 http fetch GET 200 https://registry.npmjs.org/path-dirname 27ms (cache miss)
+489 silly inflate node_modules/path-is-absolute
+490 silly inflate node_modules/path-is-inside
+491 http fetch GET 200 https://registry.npmjs.org/path-is-inside 24ms (cache miss)
+492 silly inflate node_modules/path-key
+493 http fetch GET 200 https://registry.npmjs.org/path-key 20ms (cache miss)
+494 silly inflate node_modules/path-to-regexp
+495 http fetch GET 200 https://registry.npmjs.org/path-to-regexp 26ms (cache miss)
+496 silly inflate node_modules/pify
+497 http fetch GET 200 https://registry.npmjs.org/pify 33ms (cache miss)
+498 silly inflate node_modules/posix-character-classes
+499 http fetch GET 200 https://registry.npmjs.org/posix-character-classes 23ms (cache miss)
+500 silly inflate node_modules/prepend-http
+501 http fetch GET 200 https://registry.npmjs.org/prepend-http 23ms (cache miss)
+502 silly inflate node_modules/process-nextick-args
+503 silly inflate node_modules/proxy-addr
+504 http fetch GET 200 https://registry.npmjs.org/proxy-addr 22ms (cache miss)
+505 silly inflate node_modules/pseudomap
+506 http fetch GET 200 https://registry.npmjs.org/pseudomap 27ms (cache miss)
+507 silly inflate node_modules/pstree.remy
+508 http fetch GET 200 https://registry.npmjs.org/pstree.remy 48ms (cache miss)
+509 silly inflate node_modules/qs
+510 http fetch GET 200 https://registry.npmjs.org/qs 23ms (cache miss)
+511 silly inflate node_modules/range-parser
+512 http fetch GET 200 https://registry.npmjs.org/range-parser 20ms (cache miss)
+513 silly inflate node_modules/raw-body
+514 http fetch GET 200 https://registry.npmjs.org/raw-body 25ms (cache miss)
+515 silly inflate node_modules/rc
+516 silly inflate node_modules/readable-stream
+517 silly inflate node_modules/readdirp
+518 http fetch GET 200 https://registry.npmjs.org/readdirp 23ms (cache miss)
+519 silly inflate node_modules/regex-not
+520 http fetch GET 200 https://registry.npmjs.org/regex-not 24ms (cache miss)
+521 silly inflate node_modules/regexp-clone
+522 http fetch GET 200 https://registry.npmjs.org/regexp-clone 50ms (cache miss)
+523 silly inflate node_modules/registry-auth-token
+524 http fetch GET 200 https://registry.npmjs.org/registry-auth-token 43ms (cache miss)
+525 silly inflate node_modules/registry-url
+526 http fetch GET 200 https://registry.npmjs.org/registry-url 27ms (cache miss)
+527 silly inflate node_modules/remove-trailing-separator
+528 http fetch GET 200 https://registry.npmjs.org/remove-trailing-separator 54ms (cache miss)
+529 silly inflate node_modules/repeat-element
+530 http fetch GET 200 https://registry.npmjs.org/repeat-element 24ms (cache miss)
+531 silly inflate node_modules/repeat-string
+532 http fetch GET 200 https://registry.npmjs.org/repeat-string 20ms (cache miss)
+533 silly inflate node_modules/require_optional
+534 http fetch GET 200 https://registry.npmjs.org/require_optional 22ms (cache miss)
+535 silly inflate node_modules/resolve-from
+536 http fetch GET 200 https://registry.npmjs.org/resolve-from 27ms (cache miss)
+537 silly inflate node_modules/resolve-url
+538 http fetch GET 200 https://registry.npmjs.org/resolve-url 32ms (cache miss)
+539 silly inflate node_modules/ret
+540 http fetch GET 200 https://registry.npmjs.org/ret 25ms (cache miss)
+541 silly inflate node_modules/safe-buffer
+542 silly inflate node_modules/safe-regex
+543 http fetch GET 200 https://registry.npmjs.org/safe-regex 32ms (cache miss)
+544 silly inflate node_modules/safer-buffer
+545 silly inflate node_modules/saslprep
+546 http fetch GET 200 https://registry.npmjs.org/saslprep 37ms (cache miss)
+547 silly inflate node_modules/semver
+548 silly inflate node_modules/semver-diff
+549 http fetch GET 200 https://registry.npmjs.org/semver-diff 29ms (cache miss)
+550 silly inflate node_modules/send
+551 http fetch GET 200 https://registry.npmjs.org/send 33ms (cache miss)
+552 silly inflate node_modules/serve-static
+553 http fetch GET 200 https://registry.npmjs.org/serve-static 25ms (cache miss)
+554 silly inflate node_modules/set-value
+555 http fetch GET 200 https://registry.npmjs.org/set-value 25ms (cache miss)
+556 silly inflate node_modules/set-value/node_modules/extend-shallow
+557 silly inflate node_modules/setprototypeof
+558 http fetch GET 200 https://registry.npmjs.org/setprototypeof 37ms (cache miss)
+559 silly inflate node_modules/shebang-command
+560 http fetch GET 200 https://registry.npmjs.org/shebang-command 33ms (cache miss)
+561 silly inflate node_modules/shebang-regex
+562 http fetch GET 200 https://registry.npmjs.org/shebang-regex 25ms (cache miss)
+563 silly inflate node_modules/signal-exit
+564 silly inflate node_modules/sliced
+565 http fetch GET 200 https://registry.npmjs.org/sliced 27ms (cache miss)
+566 silly inflate node_modules/snapdragon
+567 http fetch GET 200 https://registry.npmjs.org/snapdragon 25ms (cache miss)
+568 silly inflate node_modules/snapdragon/node_modules/define-property
+569 silly inflate node_modules/snapdragon/node_modules/extend-shallow
+570 silly inflate node_modules/snapdragon-node
+571 http fetch GET 200 https://registry.npmjs.org/snapdragon-node 45ms (cache miss)
+572 silly inflate node_modules/snapdragon-node/node_modules/define-property
+573 silly inflate node_modules/snapdragon-node/node_modules/is-accessor-descriptor
+574 silly inflate node_modules/snapdragon-node/node_modules/is-data-descriptor
+575 silly inflate node_modules/snapdragon-node/node_modules/is-descriptor
+576 silly inflate node_modules/snapdragon-util
+577 http fetch GET 200 https://registry.npmjs.org/snapdragon-util 36ms (cache miss)
+578 silly inflate node_modules/snapdragon-util/node_modules/kind-of
+579 silly inflate node_modules/source-map
+580 http fetch GET 200 https://registry.npmjs.org/source-map 24ms (cache miss)
+581 silly inflate node_modules/source-map-resolve
+582 http fetch GET 200 https://registry.npmjs.org/source-map-resolve 23ms (cache miss)
+583 silly inflate node_modules/source-map-url
+584 http fetch GET 200 https://registry.npmjs.org/source-map-url 32ms (cache miss)
+585 silly inflate node_modules/sparse-bitfield
+586 http fetch GET 200 https://registry.npmjs.org/sparse-bitfield 30ms (cache miss)
+587 silly inflate node_modules/split-string
+588 http fetch GET 200 https://registry.npmjs.org/split-string 27ms (cache miss)
+589 silly inflate node_modules/static-extend
+590 http fetch GET 200 https://registry.npmjs.org/static-extend 25ms (cache miss)
+591 silly inflate node_modules/static-extend/node_modules/define-property
+592 silly inflate node_modules/statuses
+593 http fetch GET 200 https://registry.npmjs.org/statuses 23ms (cache miss)
+594 silly inflate node_modules/string-width
+595 silly inflate node_modules/string_decoder
+596 silly inflate node_modules/strip-ansi
+597 silly inflate node_modules/strip-eof
+598 http fetch GET 200 https://registry.npmjs.org/strip-eof 25ms (cache miss)
+599 silly inflate node_modules/strip-json-comments
+600 silly inflate node_modules/supports-color
+601 http fetch GET 200 https://registry.npmjs.org/supports-color 33ms (cache miss)
+602 silly inflate node_modules/term-size
+603 http fetch GET 200 https://registry.npmjs.org/term-size 1146ms (cache miss)
+604 silly inflate node_modules/timed-out
+605 http fetch GET 200 https://registry.npmjs.org/timed-out 53ms (cache miss)
+606 silly inflate node_modules/to-object-path
+607 http fetch GET 200 https://registry.npmjs.org/to-object-path 24ms (cache miss)
+608 silly inflate node_modules/to-object-path/node_modules/kind-of
+609 silly inflate node_modules/to-regex
+610 http fetch GET 200 https://registry.npmjs.org/to-regex 52ms (cache miss)
+611 silly inflate node_modules/to-regex-range
+612 http fetch GET 200 https://registry.npmjs.org/to-regex-range 32ms (cache miss)
+613 silly inflate node_modules/touch
+614 http fetch GET 200 https://registry.npmjs.org/touch 21ms (cache miss)
+615 silly inflate node_modules/type-is
+616 http fetch GET 200 https://registry.npmjs.org/type-is 22ms (cache miss)
+617 silly inflate node_modules/undefsafe
+618 http fetch GET 200 https://registry.npmjs.org/undefsafe 23ms (cache miss)
+619 silly inflate node_modules/union-value
+620 http fetch GET 200 https://registry.npmjs.org/union-value 25ms (cache miss)
+621 silly inflate node_modules/union-value/node_modules/extend-shallow
+622 silly inflate node_modules/union-value/node_modules/set-value
+623 silly inflate node_modules/unique-string
+624 http fetch GET 200 https://registry.npmjs.org/unique-string 23ms (cache miss)
+625 silly inflate node_modules/unpipe
+626 http fetch GET 200 https://registry.npmjs.org/unpipe 26ms (cache miss)
+627 silly inflate node_modules/unset-value
+628 http fetch GET 200 https://registry.npmjs.org/unset-value 29ms (cache miss)
+629 silly inflate node_modules/unset-value/node_modules/has-value
+630 silly inflate node_modules/unset-value/node_modules/has-value/node_modules/isobject
+631 silly inflate node_modules/unset-value/node_modules/has-values
+632 silly inflate node_modules/unzip-response
+633 http fetch GET 200 https://registry.npmjs.org/unzip-response 30ms (cache miss)
+634 silly inflate node_modules/upath
+635 http fetch GET 200 https://registry.npmjs.org/upath 32ms (cache miss)
+636 silly inflate node_modules/update-notifier
+637 http fetch GET 200 https://registry.npmjs.org/update-notifier 29ms (cache miss)
+638 silly inflate node_modules/urix
+639 http fetch GET 200 https://registry.npmjs.org/urix 26ms (cache miss)
+640 silly inflate node_modules/url-parse-lax
+641 http fetch GET 200 https://registry.npmjs.org/url-parse-lax 39ms (cache miss)
+642 silly inflate node_modules/use
+643 http fetch GET 200 https://registry.npmjs.org/use 22ms (cache miss)
+644 silly inflate node_modules/util-deprecate
+645 silly inflate node_modules/utils-merge
+646 http fetch GET 200 https://registry.npmjs.org/utils-merge 42ms (cache miss)
+647 silly inflate node_modules/vary
+648 http fetch GET 200 https://registry.npmjs.org/vary 38ms (cache miss)
+649 silly inflate node_modules/which
+650 http fetch GET 200 https://registry.npmjs.org/which 21ms (cache miss)
+651 silly inflate node_modules/widest-line
+652 http fetch GET 200 https://registry.npmjs.org/widest-line 26ms (cache miss)
+653 silly inflate node_modules/write-file-atomic
+654 http fetch GET 200 https://registry.npmjs.org/write-file-atomic 25ms (cache miss)
+655 silly inflate node_modules/xdg-basedir
+656 http fetch GET 200 https://registry.npmjs.org/xdg-basedir 24ms (cache miss)
+657 silly inflate node_modules/yallist
+658 timing idealTree:inflate Completed in 11154ms
+659 timing idealTree:userRequests Completed in 0ms
+660 silly idealTree buildDeps
+661 timing idealTree:#root Completed in 1ms
+662 timing idealTree:buildDeps Completed in 2ms
+663 timing idealTree:fixDepFlags Completed in 0ms
+664 timing idealTree Completed in 11719ms
+665 timing reify:loadTrees Completed in 11720ms
+666 timing reify:diffTrees Completed in 14ms
+667 silly reify moves {}
+668 timing reify:retireShallow Completed in 2ms
+669 timing reify:rollback:createSparse Completed in 0ms
+670 timing reify:rollback:retireShallow Completed in 0ms
+671 timing command:i Completed in 11828ms
+672 verbose stack Error: EACCES: permission denied, mkdir '/home/ubuntu/Simple-CRUD-API/node_modules/abbrev'
+673 verbose cwd /home/ubuntu/Simple-CRUD-API
+674 verbose Linux 5.19.0-1025-aws
+675 verbose argv "/usr/bin/node" "/usr/bin/npm" "i"
+676 verbose node v12.22.9
+677 verbose npm  v8.5.1
+678 error code EACCES
+679 error syscall mkdir
+680 error path /home/ubuntu/Simple-CRUD-API/node_modules/abbrev
+681 error errno -13
+682 error [Error: EACCES: permission denied, mkdir '/home/ubuntu/Simple-CRUD-API/node_modules/abbrev'] {
+682 error   errno: -13,
+682 error   code: 'EACCES',
+682 error   syscall: 'mkdir',
+682 error   path: '/home/ubuntu/Simple-CRUD-API/node_modules/abbrev'
+682 error }
+683 error
+683 error The operation was rejected by your operating system.
+683 error It is likely you do not have the permissions to access this file as the current user
+683 error
+683 error If you believe this might be a permissions issue, please double-check the
+683 error permissions of the file and its containing directories, or try running
+683 error the command again as root/Administrator.
+684 verbose exit -13
+685 timing npm Completed in 12175ms
+686 verbose unfinished npm timer reify 1685086218065
+687 verbose unfinished npm timer reify:createSparse 1685086229819
+688 verbose code -13
+689 error A complete log of this run can be found in:
+689 error     /home/ubuntu/.npm/_logs/2023-05-26T07_30_17_725Z-debug-0.log
